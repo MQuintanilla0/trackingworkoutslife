@@ -125,3 +125,4 @@ F:\reposVisualStudio\TrackingWorkoutsApp\TrackingWorkoutsApp\obj\Debug\net8.0\re
 F:\reposVisualStudio\TrackingWorkoutsApp\TrackingWorkoutsApp\obj\Debug\net8.0\TrackingWorkoutsApp.pdb
 F:\reposVisualStudio\TrackingWorkoutsApp\TrackingWorkoutsApp\obj\Debug\net8.0\TrackingWorkoutsApp.genruntimeconfig.cache
 F:\reposVisualStudio\TrackingWorkoutsApp\TrackingWorkoutsApp\obj\Debug\net8.0\ref\TrackingWorkoutsApp.dll
+F:\reposVisualStudio\TrackingWorkoutsApp\TrackingWorkoutsApp\obj\Debug\net8.0\TrackingWorkoutsApp.sourcelink.json
