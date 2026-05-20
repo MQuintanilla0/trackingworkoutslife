@@ -16,6 +16,8 @@ obj/
 *.db-shm
 *.db-wal
 .vs/
+*.csproj.user
+workouts.db
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
