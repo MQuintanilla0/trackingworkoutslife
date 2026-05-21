@@ -1,6 +1,5 @@
-﻿using global::TrackingWorkoutsApp.Models;
+﻿using TrackingWorkoutsApp.Models;
 using Microsoft.EntityFrameworkCore;
-using TrackingWorkoutsApp.Models;
 
 namespace TrackingWorkoutsApp.Data
 {
@@ -12,5 +11,17 @@ namespace TrackingWorkoutsApp.Data
         public DbSet<Workout> Workouts { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<Set> Sets { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 1,
+                Email = "asd@asd.com",
+                PasswordHash = "asd"
+            });
+        }
     }
+
+
 }
